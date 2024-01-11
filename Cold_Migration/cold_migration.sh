@@ -62,7 +62,7 @@ Backing up existing $VMNAME xml config file, if present"
 sudo mv /$VM_DIR/$VMNAME/$VMNAME.xml /$VM_DIR/$VMNAME/$VMNAME.xml.org
 
 echo "
-Ensuring standard path "/imgs1" is set in $VMNAME xml config file"
+Ensuring standard path "/vm_imgs" is set in $VMNAME xml config file"
 sed -i.bak "s/$VM_DIR/vm_imgs/g" "/tmp/$VMNAME.xml"
 
 echo "
