@@ -91,7 +91,7 @@ creating storage-pool for $VMNAME & $diskfile Please enter root password for $De
    
    "
    ssh root@$DestinationHost <<EOF
-   sudo mkdir -p /imgs1/$VMNAME
+   sudo mkdir -p /vm_imgs/$VMNAME
    sudo virsh pool-define-as --name $VMNAME --type dir --target /vm_imgs/$VMNAME
    sudo virsh pool-autostart $VMNAME
    sudo virsh pool-start $VMNAME
