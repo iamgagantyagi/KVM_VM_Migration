@@ -7,9 +7,9 @@ We have two methods to migrate VM's from one KVM server to another.
 2 Cold Migration - This is used to migrate Critcal Hosts.
 ```
 
-#### Live Migration : 
+#### Live Migration : [Live_Migration_Script](https://github.com/iamgagantyagi/KVM_VM_Migration/blob/main/Live_Migration/live_migration.sh)
 
-#### Cold Migration : 
+#### Cold Migration : [Cold_Migration_Script](https://github.com/iamgagantyagi/KVM_VM_Migration/blob/main/Cold_Migration/cold_migration.sh)
 
 ---
 ## Authors
