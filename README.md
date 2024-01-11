@@ -35,7 +35,7 @@ _Below is an example of how you can perform migration vm from one server to anot
    ```
 2. Open the screen session named migration.
    ```sh
-   Screen -S migration
+   screen -S migration
    ```
 4. Choose the migration type [live/cold] and run the script.
    ```sh
